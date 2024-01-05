@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    color:white
+}
+
+.movieBookingForm{
+max-width: 650px;
+margin: 0 auto;
+padding: 40px;
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 0px 2px 4px rgba(0, 0,0, .2);
+background-color: #9c84f3;
+}
+
+.movieBookingForm h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.movieBookingForm label{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.movieBookingForm input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+.movieBookingForm button{
+margin-top: 30px;
+display: block;
+width: 100%;
+border-radius: 5px;
+cursor: pointer;
+background-color: mediumseagreen;
+border:  none;
+padding: 10px;
+transition: background-color .3s ease;
+}
+
+.movieBookingForm button:hover{
+    background-color:mediumvioletred
+}
